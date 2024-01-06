@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<group>
+    <type name = "apiData">
+        <object name = "common">
+            <attribute name = "baseUri" value = "http:\\123123"/>
+            <attribute name = "usernameT24" value = "hoangdc"/>
+            <attribute name = "passwordT24" value = "hoangdc"/>
+            <attribute name = "usernameSC" value = "hoangdc"/>
+            <attribute name = "passwordSC" value = "hoangdc"/>
+            <attribute name = "dummyUri" value = "https://dummy.restapiexample.com/"/>
+        </object>
+        <object name = "chamChungTu">
+            <attribute name = "url" value = "/api/" />
+        </object>
+        <object name = "dummyPostApi">
+            <attribute name = "url" value = "/api/v1/create" />
+            <attribute name = "requestBody" value = "/data/api/dummy-test/postRequest.json" />
+        </object>
+    </type>
+</group>
