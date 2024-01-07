@@ -1,8 +1,8 @@
-package com.mb.api.core;
+package api.core;
 
 //import com.mb.api.core.logger.RestAssuredRequestFilter;
 //import com.mb.api.core.logger.RestAssuredResponseFilter;
-import com.mb.api.constant.SCRestData;
+import api.constant.SCRestData;
 import io.restassured.config.HttpClientConfig;
 import io.restassured.config.RestAssuredConfig;
 import io.restassured.http.ContentType;

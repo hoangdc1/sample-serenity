@@ -1,4 +1,4 @@
-package com.mb.api.utils;
+package api.utils;
 
 import com.jayway.jsonpath.Configuration;
 import com.jayway.jsonpath.DocumentContext;

@@ -1,7 +1,9 @@
-package com.mb.api.defs;
+package api.defs;
 
-import com.mb.api.steps.DummySteps;
+import api.steps.DummySteps;
 import cucumber.api.java.en.When;
+//import io.cucumber.java.en.When;
+//import io.cucumber.java.en.When;
 import net.thucydides.core.annotations.Steps;
 
 public class DummyStepDefs {

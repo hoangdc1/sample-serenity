@@ -1,4 +1,4 @@
-package com.mb.api.core.logger;//package com.mb.api.core.logger;
+package api.core.logger;//package com.mb.api.core.logger;
 //
 //
 //import io.restassured.filter.Filter;

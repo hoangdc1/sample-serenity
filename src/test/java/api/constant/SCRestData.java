@@ -1,6 +1,6 @@
-package com.mb.api.constant;
+package api.constant;
 
-import com.mb.api.utils.Utilities;
+import api.utils.Utilities;
 
 public class SCRestData {
     public static final String SC_BASE_URI = Utilities.getValueOfDataConf("apiData.common.baseUri");
