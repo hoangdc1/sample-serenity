@@ -1,8 +1,9 @@
 package api.core;
 
-//import com.mb.api.core.logger.RestAssuredRequestFilter;
-//import com.mb.api.core.logger.RestAssuredResponseFilter;
+
 import api.constant.SCRestData;
+import api.core.logger.RestAssuredRequestFilter;
+import api.core.logger.RestAssuredResponseFilter;
 import io.restassured.config.HttpClientConfig;
 import io.restassured.config.RestAssuredConfig;
 import io.restassured.http.ContentType;
@@ -29,7 +30,7 @@ public class BaseSteps {
         return SerenityRest.rest()
                 .contentType(ContentType.JSON).baseUri(SCRestData.DUMMY_BASE_URI).basePath(apiPath)
                 .config(createHttpClientConfig())
-//                .filters(new RestAssuredRequestFilter(), new RestAssuredResponseFilter())
+                .filters(new RestAssuredRequestFilter(), new RestAssuredResponseFilter())
                 .relaxedHTTPSValidation();
     }
 }
