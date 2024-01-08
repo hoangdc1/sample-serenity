@@ -16,7 +16,7 @@ public class DummySteps extends BaseSteps {
         System.out.println(Utilities.getFilePathFromDataConf("apiData.dummyPostApi.requestBody"));
         String jsonBody = Utilities.modifyJson(Utilities.getFilePathFromDataConf("apiData.dummyPostApi.requestBody"), jsonKey, jsonValue);
         Response response = getDummyDefaultRequestBuilder(SCRestData.POST_REQUEST_DUMMY)
-                .body(jsonBody).log().all().post();
+                .body(jsonBody).post();
         Serenity.setSessionVariable("response").to(response);
         return response;
     }
