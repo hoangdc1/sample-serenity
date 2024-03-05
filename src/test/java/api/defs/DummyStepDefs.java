@@ -1,8 +1,7 @@
 package api.defs;
 
 import api.steps.DummySteps;
-import cucumber.api.java.en.When;
-//import io.cucumber.java.en.When;
+import io.cucumber.java.en.When;
 //import io.cucumber.java.en.When;
 import net.thucydides.core.annotations.Steps;
 
@@ -10,7 +9,7 @@ public class DummyStepDefs {
     @Steps
     DummySteps dummySteps;
 
-    @When("user call dummy post api with name \"([^\"]*)\", salary \"([^\"]*)\", age \"([^\"]*)\"")
+    @When("user call dummy post api with name {string}, salary {string}, age {string}")
     public void userCallDummyPostApiWithData(String name, String salary, String age) throws Exception {
         String[] jsonKey = {"$.name", "$.salary", "$.age"};
         String[] jsonValue = {name, salary, age};

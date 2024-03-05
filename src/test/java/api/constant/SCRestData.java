@@ -1,6 +1,6 @@
 package api.constant;
 
-import api.utils.Utilities;
+import utils.Utilities;
 
 public class SCRestData {
     public static final String SC_BASE_URI = Utilities.getValueOfDataConf("apiData.common.baseUri");

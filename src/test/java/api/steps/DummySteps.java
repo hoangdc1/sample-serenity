@@ -2,7 +2,7 @@ package api.steps;
 
 import api.constant.SCRestData;
 import api.core.BaseSteps;
-import api.utils.Utilities;
+import utils.Utilities;
 import io.restassured.response.Response;
 import net.serenitybdd.core.Serenity;
 import net.thucydides.core.annotations.Step;
